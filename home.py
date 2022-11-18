@@ -24,7 +24,7 @@ st.write('''
 ''')
 #----------------------------------------------------------------------
 st.subheader('app data')
-data=pd.read_csv('data\Real_Estate_Sales_2001-2020_GL.csv')
+data=pd.read_csv('data\Real.csv')
 st.dataframe(data)
 
 st.subheader('for data source cilck the button')
